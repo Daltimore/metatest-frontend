@@ -9,7 +9,7 @@ const DashboardLayout = ({ children }) => {
       <section className='flex-1 flex flex-col overflow-hidden'>
         <DashboardNavbar />
         <main className="flex-1 overflow-x-hidden overflow-y-auto bg-dashboard">
-          <div className="container mx-auto pl-10 pt-2 xl:pt-6 children">
+          <div className="container pt-2 xl:pt-6 children">
             {children}
           </div>
         </main>

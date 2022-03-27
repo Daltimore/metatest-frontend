@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className='flex justify-between items-center'>
         <div className='relative'>
           <input
-            className='w-[441px] h-[54px] border-0 rounded-[10px] bg-[#FAFAFC] px-4'
+            className='w-[441px] h-[54px] border-0 rounded-[10px] bg-[#FAFAFC] px-4 focus:outline-none'
             placeholder="Ask us any question"
           />
           <span className='absolute right-6 top-4'>
